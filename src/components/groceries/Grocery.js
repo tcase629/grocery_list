@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Grocery = ({ id, item, complete }) => (
+const Grocery = ({ id, item, complete, groceryClick }) => (
   <li
     style={ complete ? { ...styles.grocery, ...styles.complete } : styles.grocery}
+    onClick={ () => groceryClick(id) }
   >
     { item }  
   </li>

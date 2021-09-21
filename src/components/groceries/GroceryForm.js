@@ -25,7 +25,8 @@ class GroceryForm extends Component {
         type="text"  
         required
         placeholder="Whatcha Wanna Get"
-        />        
+        />   
+        <button>Add Item</button>     
       </form>
     )
   }
