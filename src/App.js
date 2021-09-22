@@ -41,6 +41,8 @@ class App extends Component {
 
     return (
       <div>
+        <h1>Grocery List</h1>
+        <hr />
         <GroceryForm addItem={this.addItem}/>
         <GroceryList name="Grocery List" items={groceries} groceryClick={this.handleClick} />
       </div>  
